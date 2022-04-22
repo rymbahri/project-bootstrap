@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Oswald:wght@300&family=Roboto:ital,wght@0,300;1,300&family=Square+Peg&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-nav .nav-item a {
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    
+    text-transform: uppercase;
+} 
+.navbar-nav .nav-item a:hover{
+    color: rgb(179, 29, 54);
+}
+.search {
+    width: 90%;
+    height: 45px;
+    margin-right: -35px;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(179, 29, 54);
+}
+.btn0 {
+    width: 50%;
+    height: 45px;
+    border-radius: 60px;
+    font-weight: 700;
+    border: 2px solid rgb(179, 29, 54);;
+}
+/* main */
+
+ .main {
+    background: url(https://cache.cosmopolitan.fr/data/photo/w1000_ci/57/naturopathie.jpg) ; 
+    background-size: cover; 
+    width: 100%;
+    height: auto ; 
+
+}   
+.main h1 {
+    font-family: 'Ms Madi', cursive;
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(230, 228, 236);
+    text-shadow: violet;
+    
+ 
+}
+ .presentation{
+    margin: 30px;
+} 
+.presentation p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+/* store */
+
+.img-store{
+    width: 100px;
+    height: 100px;
+}
+p{
+    text-align: justify;
+}
+
+
+/* therapy */
+.therapy {
+     margin: 40px; 
+}
+.therapy .img-fluid{
+    width: 600px;
+    height: 50vh;
+    border: 2px solid rgb(137, 137, 168);
+}
+  
+
+/* sells */
+.card {
+    margin: 10px;
+}
+.card :hover{
+    -webkit-box-shadow: -3px -2px 25px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -3px -2px 25px 3px rgba(0,0,0,0.75);
+    box-shadow: -3px -2px 25px 3px rgba(0,0,0,0.75);
+    transition: 0.5s; 
+}
+.sells .btn1{
+    height: 45px;
+    width: 25%;
+    border: 1px solid teal;
+    background-color: transparent;
+    outline: none;
+    color: teal;
+    border-radius: 60px;
+}
+.sells .btn1:hover{
+    background-color: teal;
+    color: #fff;
+    transition: 0.5s;
+}
+/* footer */
+.footer .btn2{
+    height: 55px;
+    width: 85%;
+    border: 1px solid black;
+    background-color: transparent;
+    outline: none;
+    color: black;
+    border-radius: 60px;
+}
+.btn2:hover{
+    background-color: rgb(70, 70, 221);
+    color:white;
+    transition: 0.5s;
+}
+
+.footer {
+    background-color: bisque;
+}
+
+
+
+    
